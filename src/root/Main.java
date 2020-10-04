@@ -82,7 +82,7 @@ public class Main {
             System.out.println("Calories: " + calories);
         }
 
-        System.out.printf("Please select item to calculate amount of it (1 - %d): ", totalAmount);
+        System.out.printf("Please select item to calculate amount of it (1 - %d): ", totalAmount); //TODO fix range
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt() - 1;
         if (choice < 0 || choice >= totalAmount) {
