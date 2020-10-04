@@ -9,7 +9,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Food[] breakfast = new Food[20];
+        final int MAX = 20;
+        Food[] breakfast = new Food[MAX];
         int totalAmount = 0;
         boolean needCalories = false;
         boolean needSort = false;
